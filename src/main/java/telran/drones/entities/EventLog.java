@@ -26,4 +26,5 @@ public LogDto build() {
 	return new LogDto(timestamp, drone.number, drone.state, drone.batteryCapacity, medication.code);
 }
 
+
 }
